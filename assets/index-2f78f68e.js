@@ -118,20 +118,20 @@ const H = f0.Fragment
     isDev: !0,
     apiHost: "https://staging-backend-mjieg.ondigitalocean.app",
     showDebugger: !1,
-    botLink: "https://t.me/AgeCoinBot",
+    botLink: "https://t.me/Dragondemotapbot",
     xLink: "https://x.com/osClub",
-    telegramChannel: "https://t.me/osClub",
-    tonConnectManifestUrl: "https://agecoin.vpnmanager.site/assets/manifest.json",
+    telegramChannel: "https://t.me/vierapy",
+    tonConnectManifestUrl: "https://agee.vercel.app/assets/manifest.json",
     tonConnectWalletsListSource: "https://raw.githubusercontent.com/ton-connect/wallets-list/main/wallets-v2.json"
 }
   , L1 = {
     isProd: !0,
-    apiHost: "https://agecoin.vpnmanager.site/api",
+    apiHost: "https://agee.vercel.app/api",
     showDebugger: !1,
-    botLink: "https://t.me/AgeCoinBot",
+    botLink: "https://t.me/Dragondemotapbot",
     xLink: "https://x.com/osClub",
-    telegramChannel: "https://t.me/osClub",
-    tonConnectManifestUrl: "https://agecoin.vpnmanager.site/assets/manifest.json",
+    telegramChannel: "https://t.me/vierapy",
+    tonConnectManifestUrl: "https://agee.vercel.app/assets/manifest.json",
     tonConnectWalletsListSource: "https://raw.githubusercontent.com/ton-connect/wallets-list/main/wallets-v2.json"
 };
 let v0;
@@ -1867,7 +1867,7 @@ function S6() {
             const x = `${L.botLink}/join/?startapp=${t == null ? void 0 : t.reference}`;
             let k = t == null ? void 0 : t.age;
             (t == null ? void 0 : t.age) <= 0 ? k = 1 : (t == null ? void 0 : t.age) > 11 && (k = 11);
-            const l = `https://agecoin.vpnmanager.site/story/${k}.mp4`;
+            const l = `https://agee.vercel.app/story/${k}.mp4`;
             try {
                 l0.shareToStory(l, {
                     text: `${x} #AGE #AGECommunity`
@@ -2107,7 +2107,7 @@ function I6({task: t}) {
             const x = `${L.botLink}/join/?startapp=${o == null ? void 0 : o.reference}`;
             let k = o == null ? void 0 : o.age;
             (o == null ? void 0 : o.age) <= 0 ? k = 1 : (o == null ? void 0 : o.age) > 11 && (k = 11);
-            const l = `https://agecoin.vpnmanager.site/story/${k}.mp4`;
+            const l = `https://agee.vercel.app/story/${k}.mp4`;
             try {
                 j6.shareToStory(l, {
                     text: `${x} #AGE #AGECommunity`
@@ -2247,7 +2247,7 @@ function B6({onShowStart: t}) {
                 })
             }), s(S6, {}), s(A6, {}), s(p6, {}), s("a", {
                 className: B.policyLink,
-                href: "https://agecoin.vpnmanager.site/assets/POLICY.docx",
+                href: "https://agee.vercel.app/assets/POLICY.docx",
                 target: "_blank",
                 children: "Privacy policy"
             })]
@@ -75981,7 +75981,7 @@ const k8 = "_inner_mgd6s_1"
     title: "Telegram Premium",
     subTitle: "You know how to get the best",
     value: ()=>s("img", {
-        src: "agecoin.vpnmanager.site/assets/star.png"
+        src: "agee.vercel.app/assets/star.png"
     }),
     valueTitle: "Premium user",
     valueSubTitle: "Status confirmed"
