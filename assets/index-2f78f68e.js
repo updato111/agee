@@ -126,7 +126,7 @@ const H = f0.Fragment
 }
   , L1 = {
     isProd: !0,
-    apiHost: "https://agee.vercel.app/api",
+    apiHost: "https://api.allorigins.win/get?url=https://api.onetime.dog",
     showDebugger: !1,
     botLink: "https://t.me/Dragondemotapbot",
     xLink: "https://x.com/osClub",
